@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    
+}
+input{
+    border:none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+body{
+    font-size: 16px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    height: 100vh;
+    background-color: #455876;
+    color: #fff;
+}
+header{
+    width: 960px;
+    margin-bottom: 15px;
+}
+.container{
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.currency-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+#currency-sel-list{
+    background-color: transparent;
+    border: none;
+    color: white;
+    width:100px;
+    font-size: 16px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+#currency-sel-list:focus, #currency-input-value:focus{
+outline: none;
+}
+#currency-input-value{
+    background-color: transparent;
+    border-bottom:2px solid #fff;
+    color: white;
+    width:400px;
+    margin-bottom: 15px;
+    font-size: 46px;
+    text-align: center;
+}
+#currency-input-value::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+.currency-list{
+    width: 500px;
+    margin-bottom: 40px;
+}
+.currency-list-title{
+    font-weight: 500;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 15px;
+}
+.currency-item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 5px 0;
+    border-bottom: 1px solid #fff;
+}
+.add{
+    width: 60px;
+    height: 60px;
+    border:none;
+    background-color: #fff;
+    color: #455876;
+    border-radius: 50%;
+    font-size: 46px
+}
+
+@media (max-width: 500px){
+    header{
+        width: 400px;
+    }
+    .currency-list{
+        width: 400px;
+    }
+}
