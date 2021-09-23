@@ -55,7 +55,7 @@ footer {
     position: relative;
  }
 .column{
-    margin : 15px;
+    margin : 20px;
     border-style: solid;
     border-color:black;
     border-width: 4px;
@@ -68,12 +68,19 @@ footer {
     margin-right: auto;
     width : 750px;
     background-color: lightblue;
+    margin-bottom: 20px;
 }
 .input{
     border-style: solid;
     border-width: 3px;
     border-color: black;
-    width: 200px;
+    width: 750px;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#unit{
+    width: 700px;
 }
 .output{
     float:left;
