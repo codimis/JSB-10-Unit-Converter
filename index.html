@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="designed" content="Merve and Mert">
+    <title>Length Converter</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <header> <h1 class = "main-heading">Length Converter</h1></header>
+   
+   <!-- Linkedn vb. tarzı link koyulabilir. <a href="https://www.linkedin.com/in/mertcikla/"><img src="Twitch_Instagram__282_29.png" height="150" width="150"></a>--> 
+    <div>
+      <p class = "info">You can convert length units to each other via this site.<br> </p>
+    </div>
+    <hr>
+    <br>
+    <table class="unit-table">
+  <thead>
+    <tr>
+      <th>Units</th>
+      <th>Convertion</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Kilometer</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Hectameter</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>Decameter</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>Meter</td>
+      <td>1000</td>
+    </tr>
+    <tr>
+      <td>Decimeter</td>
+      <td>10000</td>
+    </tr>
+    <tr>
+      <td>Centimeter</td>
+      <td>100000</td>
+    </tr>
+    <tr>
+      <td>Milimeter</td>
+      <td>1000000</td>
+    </tr>
+  </tbody>
+</table>
+<form class = "input"><label for="unit">Km:</label><br>
+  <input type="text" id="unit" name="unit" placeholder="kilometer" required><br>
+  <p class = "output">Output : </p>
+  <p class = "result"></p>
+  <br>
+  <input type="reset" class = "reset-button">
+</form>  
+    <div class="columns is-mobile">
+      <button class = column>Hectameter</button>
+      <button class = column>Decameter</button>
+      <button class = column>Meter</button>
+      <button class = column>Decimeter</button>
+      <button class = column>Centimeter</button>
+      <button class = column>Milimeter</button>
+    </div>
+    
+      
+    <hr class = "footer-line">
+    <footer>
+      <p></p>
+    </footer>
+    <script src = "script.js"></script>
+</body>
+</html>
+<!--Yorum satırı-->
