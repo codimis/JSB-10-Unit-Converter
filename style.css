@@ -43,11 +43,6 @@ tr:hover {background-color: #D6EEEE;}
     color: black;
 }
 
-footer {
-    padding: 10px;
-    text-align: center;
-    color:black;
-}
 .columns{
     display: flex;
     justify-content: center;
